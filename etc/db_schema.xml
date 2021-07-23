@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table name="sales_order">
+		<column name="test1" nullable="true" xsi:type="varchar" comment="test1" length="255"/>
+        <column name="test2" nullable="true" xsi:type="varchar" comment="test2" length="255"/>
+	</table>
+</schema>
