@@ -76,7 +76,7 @@ class OrderRepositoryInterfacePlugin
         $orderData = $order->getData();
         foreach (self::FIELD_NAMES as $fieldName){
             $function = 'set'.ucfirst($fieldName);
-            $extensionAttributes->$function($fieldName,$orderData[$fieldName]);
+            $extensionAttributes->$function($orderData[$fieldName]);
         }
     }
 
